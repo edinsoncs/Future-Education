@@ -3,57 +3,7 @@
 
 <div id="page">
         <!-- Header Section Start -->
-        <div class="header-section header-fluid header-left sticky-header section">
-            <div class="header-inner">
-                <div class="container position-relative">
-                    <div class="row justify-content-between align-items-center">
-
-                        <!-- Header Main Menu Start -->
-                        @include('includes.menu')
-                        <!-- Header Main Menu End -->
-
-                        <!-- Header Logo Start -->
-                        <div class="col-xl-2 col-auto">
-                            <div class="header-logo">
-                                <a href="index.html">
-                                    <img class="dark-logo" src="/landing/images/logo/dark-logo.png" alt="Learts Logo">
-                                    <img class="light-logo" src="/landing/images/logo/light-logo.png" alt="Learts Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Header Logo End -->
-
-                        <!-- Header Right Start -->
-                        <div class="col-xl-5 col-auto">
-                            <div class="header-right">
-                                <div class="inner">
-
-                                   
-                                    <!-- Header Login Start -->
-                                    <div class="header-login">
-                                        <a href="#" class="d-flex align-items-center"><i class="far fa-user-circle mr-2"></i>Acceso al Sistema</a>
-                                    </div>
-                                    <!-- Header Login End -->
-
-
-                                    <!-- Header Mobile Menu Toggle Start -->
-                                    <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
-                                        <button class="toggle">
-                                            <i class="icon-top"></i>
-                                            <i class="icon-middle"></i>
-                                            <i class="icon-bottom"></i>
-                                        </button>
-                                    </div>
-                                    <!-- Header Mobile Menu Toggle End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Header Right End -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('includes.header-base')
         <!-- Header Section End -->
 
         <!-- Slider/Intro Section Start -->
@@ -363,71 +313,7 @@
 
 
 
-        <div class="footer-section section">
-            <div class="container">
-
-                <!-- Footer Top Widgets Start -->
-                <div class="row">
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-xl-6 col-md-5 col-12 max-mb-50">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Address</h4>
-                            <div class="footer-widget-content">
-                                <div class="content">
-                                    <p>Miraflores - Lima - Perú</p>
-                                    <p>+51 995931635 (9am - 5pm EST, Lunes - Viernes) </p>
-                                    <p><a href="#">info@campusvirtual.edu.pe </a></p>
-                                </div>
-                                <div class="footer-social-inline">
-                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-xl-3 col-md-4 col-sm-7 col-12 max-mb-50">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Explore</h4>
-                            <div class="footer-widget-content">
-                                <ul class="column-2">
-                                    <li><a href="#">Como empezar</a></li>
-                                    <li><a href="#">Socios</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Cursos</a></li>
-                                    <li><a href="#">Nosotros</a></li>
-                                    <li><a href="#">Contacto</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-xl-3 col-md-3 col-sm-5 col-12 max-mb-50">
-                        <div class="footer-widget">
-                            <h4 class="footer-widget-title">Information</h4>
-                            <div class="footer-widget-content">
-                                <ul>
-                                    <li><a href="#">Precios</a></li>
-                                    <li><a href="#">Beneficios</a></li>
-                                    <li><a href="#">Política de privacidad</a></li>
-                                    <li><a href="#">Términos de servicio</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                </div>
-                <!-- Footer Top Widgets End -->
-                @include('includes.footer')
-
-            </div>
-        </div>
+        @include('includes.footer-menu')
 
 
         <!-- Scroll Top Start -->
@@ -438,93 +324,7 @@
         <!-- Scroll Top End -->
     </div>
 
-    <div id="site-main-mobile-menu" class="site-main-mobile-menu">
-        <div class="site-main-mobile-menu-inner">
-            <div class="mobile-menu-header">
-                <div class="mobile-menu-logo">
-                    <a href="index.html"><img src="/landing/images/logo/dark-logo.png" alt=""></a>
-                </div>
-                <div class="mobile-menu-close">
-                    <button class="toggle">
-                        <i class="icon-top"></i>
-                        <i class="icon-bottom"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="mobile-menu-content">
-                <nav class="site-mobile-menu">
-                    <ul>
-                        <li class="has-children position-static">
-                            <a href="/"><span class="menu-text">Inicio</span></a>
-                            
-                        </li>
-                        <li class="has-children">
-                            <a href="#"><span class="menu-text">Nosotros</span></a>
-                            
-                        </li>
-                        <li class="has-children">
-                            <a href="#"><span class="menu-text">Courses</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="courses-grid-1.html"><span class="menu-text">Courses Grid 01</span></a></li>
-                                <li><a href="courses-grid-2.html"><span class="menu-text">Courses Grid 02</span></a></li>
-                                <li><a href="courses-grid-3.html"><span class="menu-text">Courses Grid 03</span></a></li>
-                                <li><a href="membership-levels.html"><span class="menu-text">Membership Levels</span></a></li>
-                                <li><a href="become-a-teacher.html"><span class="menu-text">Become a Teacher</span></a></li>
-                                <li><a href="profile.html"><span class="menu-text">Profile</span></a></li>
-                                <li><a href="checkout.html"><span class="menu-text">Checkout</span></a></li>
-                                <li class="has-children">
-                                    <a href="course-details-sticky-feature-bar.html"><span class="menu-text">Single Layout</span></a>
-                                    <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                                    <ul class="sub-menu">
-                                        <li><a href="course-details-free.html"><span class="menu-text">Free Course</span></a></li>
-                                        <li><a href="course-details-sticky-feature-bar.html"><span class="menu-text">Sticky Features Bar</span></a></li>
-                                        <li><a href="course-details-standard-sidebar.html"><span class="menu-text">Standard Sidebar</span></a></li>
-                                        <li><a href="course-details-no-sidebar.html"><span class="menu-text">No Sidebar</span></a></li>
-                                    </ul>
-                                </li>
-
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#"><span class="menu-text">Event</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="event.html"><span class="menu-text">Event</span></a></li>
-                                <li><a href="zoom-meetings.html"><span class="menu-text">Zoom Meetings</span></a></li>
-                                <li><a href="event-details.html"><span class="menu-text">Event Details</span></a></li>
-                                <li><a href="zoom-event-details.html"><span class="menu-text">Zoom Meeting Details</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#"><span class="menu-text">Blog</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="blog-grid.html"><span class="menu-text">Blog Grid</span></a></li>
-                                <li><a href="blog-masonry.html"><span class="menu-text">Blog Masonry</span></a></li>
-                                <li><a href="blog-classic.html"><span class="menu-text">Blog Classic</span></a></li>
-                                <li><a href="blog-list.html"><span class="menu-text">Blog List</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#"><span class="menu-text">Shop</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="shop.html"><span class="menu-text">Shop Left Sidebar</span></a></li>
-                                <li><a href="shop-right-sidebar.html"><span class="menu-text">Shop Right Sidebar</span></a></li>
-                                <li><a href="shopping-cart.html"><span class="menu-text">Cart</span></a></li>
-                                <li><a href="shopping-cart-empty.html"><span class="menu-text">Cart Empty</span></a></li>
-                                <li><a href="wishlist.html"><span class="menu-text">Wishlist</span></a></li>
-                                <li><a href="product-details.html"><span class="menu-text">Single Product</span></a></li>
-                                <li><a href="my-account.html"><span class="menu-text">My Account</span></a></li>
-                                <li><a href="login-register.html"><span class="menu-text">Login Register</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-
+    
+    @include('includes.menu-mobiles')
 
 @endsection
