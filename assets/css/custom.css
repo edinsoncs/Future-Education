@@ -1,0 +1,62 @@
+body {
+  background-color: #f9f9f9 !important;
+  font-family:'Play', sans-serif;
+  font-size:11px;
+  padding: 50px;
+}
+.gm{
+  background-color:#fff !important;
+  border-radius:0 !important;
+  border:black solid 1px;
+  padding: 20px;
+}
+
+.gm.login-box {
+  border:#d1d1d1 solid 1px;
+  margin:0 auto;
+  margin-top:0px;
+}
+.gm.login-box legend {
+  font-size:20px;
+  font-weight:300;
+}
+.gm.login-box label {
+  font-weight:300;
+  font-size:13px;
+
+}
+.gm.login-box input[type="text"],input[type="password"],input[type="submit"],input[type="email"]{
+  box-shadow:none;
+  border-color:#ddd;
+  border-radius:0;
+}
+
+.middie-position{
+  -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.error{color:red;}
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+@media (max-width: 320px) {
+  body {padding:1px; }
+  h2{font-size: 22px;}
+  .gm.login-box legend{font-size: 15px;}
+
+}
+

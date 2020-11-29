@@ -1,2 +1,0 @@
-[06-Jun-2020 08:32:05 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\AppController::video() in /home/yghuiows/class.edinsoncs.com/app/Http/Controllers/AppController.php on line 45
-[07-Jun-2020 21:05:14 UTC] PHP Fatal error:  Cannot declare class CreateCommentsTable, because the name is already in use in /home/yghuiows/class.edinsoncs.com/database/migrations/2020_06_07_210245_create_comments_table.php on line 49

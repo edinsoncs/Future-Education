@@ -1,0 +1,88 @@
+/*!
+ * Bootstrap v3.0.3
+ *
+ * Customiz by morning sun IT at 24 sep 2016
+
+ */
+@charset "utf-8";
+body,html{
+height: 100%;
+font-family: 'Play', sans-serif;
+}
+.navbar{ background-color:#2a3f54;border-radius:0px;}
+.navbar a{ color:#FFF;}
+.navbar a:hover{color:#34485c;}
+.customTXT{color:#fff;margin-top:0px; margin-bottom:0px; text-decoration:none }
+.headerDiv{background-color:#2a3f54; padding:10px;}
+
+
+#wrapper {
+  padding-left: 0;
+}
+#page-wrapper {
+  width: 100%;
+  padding: 5px 15px;
+}
+
+@media (min-width:768px) {
+#wrapper {
+padding-left: 225px;
+}
+#page-wrapper {
+padding: 15px 25px;
+}
+/* Side Nav */
+.side-nav {
+margin-left: -225px;
+left: 225px;
+width: 225px;
+position: fixed;
+top: 50px;
+height: 100%;
+border-radius: 0;
+border: none;
+background-color: #2a3f54;
+overflow-y: auto;
+}
+
+/*sub menu*/
+.side-nav>li.dropdown>ul.dropdown-menu {
+position: relative;
+min-width: 225px;
+margin: 0;
+padding: 0;
+border: none;
+border-radius: 0;
+background-color: transparent;
+box-shadow: none;
+-webkit-box-shadow: none;
+}
+.side-nav>li.dropdown>ul.dropdown-menu>li>a {
+color: #999999;
+padding: 10px 15px 10px 25px;
+}
+
+.side-nav>li.dropdown>ul.dropdown-menu>li>a:visited,
+.side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+.side-nav>li.dropdown>ul.dropdown-menu>li>a:active,
+.side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+color: #fff;
+background-color:#23384c;
+}
+.side-nav>li>a {
+width: 225px;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:active,
+.navbar-inverse .navbar-nav>li>a:focus {
+background-color: #23384c;
+}
+}
+
+ footer p{ font-size:10px; padding-top:15px; padding-right:15px;}
+
+ @media (min-width: 1200px) {
+     .pull-right-lg {
+         float: right;
+     }
+ }
